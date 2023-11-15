@@ -1,0 +1,105 @@
+body {
+  background-color: #000;
+  color: #fff5ee;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+h1 {
+  text-align: justify;
+  height: 50px;
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  border-bottom: 1px solid #fff5ee;
+  display: flex;
+  height: 69px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  justify-content: space-between
+}
+
+li {
+  display: inline;
+}
+
+li :last-child {
+  padding-right: 10px;
+}
+
+li a {
+  color: #fff5ee;
+}
+
+li a:hover {
+  color: #0000ff;
+}
+
+/* Banner */
+
+.banner-mission {
+  background-image: url("images/img-mission-background.jpg");
+  background-position: center;
+  background-size: auto;
+  height: 700px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: 70px;
+  width: 1200px;
+}
+
+/*fix padding */
+.banner-content {
+  align-items: center;
+  background-color: #000;
+  margin-top: 320px;
+  width: 1200px;
+}
+
+.specialty h2 {
+  padding-top: 100px;
+}
+
+/* main page content */
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.tea-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  margin: 0;
+  padding: 12px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+/* Contact */
+
+.location {
+  background-image: url("images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
